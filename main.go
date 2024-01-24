@@ -6,7 +6,7 @@ import (
 	"net/http"
 )
 
-const webContent = "infodev.online:v12"
+const webContent = "ESTA MENSAGEM É DE EXITO NO DEPLOY DO PIPELINE JUNTO DO GITHUB INTEGRADO COM RANCHER"
 
 func main() {
 	http.HandleFunc("/", helloHandler)
