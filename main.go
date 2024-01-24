@@ -6,7 +6,7 @@ import (
 	"net/http"
 )
 
-const webContent = "dev-ops-ninja:v99"
+const webContent = "infodev.online:v1"
 
 func main() {
 	http.HandleFunc("/", helloHandler)
